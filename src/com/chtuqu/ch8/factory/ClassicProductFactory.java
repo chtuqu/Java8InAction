@@ -5,7 +5,7 @@ import com.chtuqu.ch8.factory.dto.impl.Bond;
 import com.chtuqu.ch8.factory.dto.impl.Loan;
 import com.chtuqu.ch8.factory.dto.impl.Stock;
 
-public class ProductFactory {
+public class ClassicProductFactory {
     public static Product createProduct(String type) {
         switch (type) {
             case "loan": return new Loan();
