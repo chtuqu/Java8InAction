@@ -49,5 +49,6 @@ public class InstantDurationPeriodTest {
         Period tendays = Period.ofDays(10);
         Period threeWeeks = Period.ofWeeks(3);
         Period twoYearsSixMonthsOneDay = Period.of(2, 6, 1);
+        Period betweenPeriod = Period.between(LocalDate.of(2003, 5, 18), LocalDate.now());
     }
 }
